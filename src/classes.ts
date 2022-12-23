@@ -6,7 +6,7 @@ interface IPerson {
 class Person implements IPerson {
   readonly id: number; // apenas leitura, sem alterações
   protected name: string; // com o protected, só acessamos a variável dentro da classe ou sub-classe
-  private age: number; // com o private, só acessamos a varável dentro da classe
+  private age: number; // com o private, só acessamos a variável dentro da classe
 
   constructor(id: number, name: string, age: number) {
     this.id = id;
